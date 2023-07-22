@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row .col-md-12{
+    text-align: center;
+}
+h3{
+    color: rgb(74, 72, 72);
+}
+.row .col-md-12 button{
+    width: 100%;
+}
+.row .col-md-12 button.logingmail{
+    padding: 6px 0px;
+    background-color: rgb(213, 71, 0);
+    color: white;
+    border: 1px solid rgb(213, 71, 0);
+    outline: none;
+    border-radius: 5px;
+}
+.row .col-md-12 button.logingmail:hover{
+    background-color: rgb(252, 101, 26);
+}
+.row .col-md-12 button.loginfacebook{
+    padding: 6px 0px;
+    background-color: darkblue;
+    color: white;
+    border: 1px solid darkblue;
+    outline: none;
+    border-radius: 5px;
+}
+.row .col-md-12 button.loginfacebook:hover{
+    background-color: rgb(32, 32, 229);
+}
+.row .col-md-12 button.loginfacebook{
+    margin-top: -10px;
+}
+.row .col-md-12 button.submitbtn{
+    padding: 6px 0px;
+    background-color: rgb(2, 109, 202);
+    color: white;
+    border: 1px solid rgb(2, 109, 202);
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+.row .col-md-12 button.submitbtn:hover{
+    background-color: rgb(40, 150, 245);
+}
+.row .col-md-12 form .input-group{
+    margin-bottom: 12px;
+}
+.linepara{
+    margin-top: 10px;
+}
+.row .col-md-12 p a{
+    text-decoration: none;
+}
+.row .col-md-12 p{
+    font-weight: 600;
+    color: rgb(105, 102, 102);
+}
+
+
+/* home page */
+
+

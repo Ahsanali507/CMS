@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    width: 100vw;
+    background-image: url("sunset.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: center/cover;
+    height: 790px;
+}
+.container-fluid .col-md-2.left{
+    text-align: center;
+}
+.container-fluid .col-md-2.left a{
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.container-fluid .col-md-2.right{
+    text-align: center;
+}
+.container-fluid .col-md-2.right a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    background-color: darkblue;
+    color: white;
+    padding: 8px 16px;
+}
+.container-fluid .col-md-2.right a:hover{
+    background-color: rgb(3, 3, 82);
+}
+.container-fluid .col-md-8 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container-fluid .col-md-8 ul li{
+    list-style: none;
+    padding: 0px 24px;
+}
+.container-fluid .col-md-8 ul li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.container-fluid .row-2 h4{
+    margin-top: 330px;
+    text-align: center;
+    font-size: 2.6rem;
+    color: white;
+}
